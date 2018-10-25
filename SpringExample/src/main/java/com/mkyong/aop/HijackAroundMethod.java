@@ -14,7 +14,7 @@ public class HijackAroundMethod implements MethodInterceptor
 				+ methodInvocation.getMethod().getName());
 		System.out.println("Method arguments : " 
 				+ Arrays.toString(methodInvocation.getArguments()));
-
+        System.out.println("Test");
 		//same with MethodBeforeAdvice
 		System.out.println("HijackAroundMethod : Before method hijacked!");
 		
